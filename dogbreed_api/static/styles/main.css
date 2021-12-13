@@ -1,0 +1,60 @@
+:root {
+    font-size: 24px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    background: #614002;
+}
+a {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+a + a {
+    margin-left: 50px;
+}
+.breedlist a {
+    color: rgb(77, 42, 2);
+}
+body {
+    width: 30em;
+    margin: 0 auto;
+    background-color: rgba(99, 66, 6, 0.678);
+    transition: background-color 0.2s ease;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+ul li {
+    display: inline-block;
+}
+
+#homepage {
+    color: rgb(167, 94, 5);
+}
+h1 {
+    color: rgb(116, 66, 5);
+}

@@ -1,0 +1,12 @@
+{% extends 'layout.html' %} {% block content%}
+        <h1>{{name}}</h1>
+        <form action="{{url_for('breed')}}" method="GET">
+    <label id="breed" for="breed">Enter breed here:</label>
+    <input type="text" name="breed" id="breed" />
+    <input type="submit" value="Search Breed" />
+</form>
+
+<img src="{{image}}" />
+{% endblock content %}
+    </body>
+</html>
