@@ -42,8 +42,7 @@ python3 app.py
 
 ### Tech used:
 
-Python Flask
-DOG API
-python
-html
-css
+-    Python Flask
+-    DOG API
+-    html
+-    css
